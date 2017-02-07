@@ -21,30 +21,23 @@
 #  if (interactive()) 
 #    fortunes::fortune()
 
-# kan haoye edit 
-
+# Haoye edit 
 .First = function(){
+	# work dir
+	# setwd("/home/username/rws")
+	setwd("/home/haoye/rws")
 
-# work dir
-# setwd("/home/username/rws")
-setwd("/home/haoye/rws")
+	# set a CRAN mirror
+	# Automatic redirection to servers worldwide, currently sponsored by Rstudio
+	local({r = getOption("repos")
+	r["CRAN"] = "https://cloud.r-project.org/"
+	options(repos=r)})
 
-# set a CRAN mirror
-#Automatic redirection to servers worldwide, currently sponsored by Rstudio
-local({r = getOption("repos")
-r["CRAN"] = "https://cloud.r-project.org/"
-options(repos=r)})
-
-# require package
-library(GGally)
-library(lubridate)
-library(stringr)
-library(ggplot2)
-library(scales)
-library(reshape2)
-library(data.table)
-library(coefplot)
-library(broom)
+	# require package
+	pkgs = c("devtools", "lattice", "GGally", "lubridate", "stringr", "ggplot2", "scales", "reshape2", "data.table", "coefplot", "broom")
+	for(pkg in pkgs) {
+  		library(pkg, character.only = TRUE)
+	}
 }
 
 
