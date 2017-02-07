@@ -1,0 +1,53 @@
+# Things you might want to change
+
+# options(papersize="a4")
+# options(editor="notepad")
+# options(pager="internal")
+
+# set the default help type
+# options(help_type="text")
+  options(help_type="html")
+
+# set a site library
+# .Library.site <- file.path(chartr("\\", "/", R.home()), "site-library")
+
+# set a CRAN mirror
+# local({r <- getOption("repos")
+#       r["CRAN"] <- "http://my.local.cran"
+#       options(repos=r)})
+
+# Give a fortune cookie, but only to interactive sessions
+# (This would need the fortunes package to be installed.)
+#  if (interactive()) 
+#    fortunes::fortune()
+
+# kan haoye edit 
+
+.First = function(){
+
+# work dir
+# setwd("/home/username/rws")
+setwd("/home/haoye/rws")
+
+# set a CRAN mirror
+#Automatic redirection to servers worldwide, currently sponsored by Rstudio
+local({r = getOption("repos")
+r["CRAN"] = "https://cloud.r-project.org/"
+options(repos=r)})
+
+# require package
+library(GGally)
+library(lubridate)
+library(stringr)
+library(ggplot2)
+library(scales)
+library(reshape2)
+library(data.table)
+library(coefplot)
+library(broom)
+}
+
+
+.Last = function(){ 
+
+}
