@@ -5,7 +5,7 @@ R file
 
 1. Windows
 
-路徑為 C:\Program Files\R\R-x.x.x＼etc
+路徑為 C:\Program Files\R\R-x.x.x\etc
 
 C:\Program Files\R\[R 版本]
 
