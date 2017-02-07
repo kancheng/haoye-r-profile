@@ -3,7 +3,7 @@ R file
 
 算是平常自己習慣 R 設定檔案，放入在 安裝目錄下的 etc 目錄即可。
 
-1. Windows
+1.Windows
 
 路徑為 C:\Program Files\R\R-x.x.x\etc
 
@@ -13,7 +13,7 @@ C:\Program Files\R\[R 版本]
 
 Rconsole 則是用於 Windows 上的 Rgui 設定。
 
-2. Ubuntu
+2.Ubuntu
 
 預設安裝路徑為 /usr/lib/R/etc
 
