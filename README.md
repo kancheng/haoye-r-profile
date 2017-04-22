@@ -1,31 +1,44 @@
-# kanhbtrfile
+# haoye-r-profile
 R file
+
+## Details
 
 算是平常自己習慣 R 設定檔案,先執行 pdpkgs.R 後,再將指定放入在 安裝目錄下的 etc 目錄即可。
 
 平常習慣使用與安裝的套件如下：
 
+```
 "devtools", "lattice", "GGally", "lubridate", "stringr", "ggplot2", "scales", "reshape2", "data.table", "coefplot", "broom"
+```
 
+## OS
 
-1.Windows(win)
+### Windows
 
-路徑為 C:\Program Files\R\R-x.x.x\etc
+Path
+
+```
+C:\Program Files\R\R-x.x.x\etc
 
 C:\Program Files\R\[R 版本]
+```
 
-而 Rprofile.site 中，預設的工作目錄與路徑 為 C:/rws
+而 Rprofile.site 中，預設的工作目錄與路徑 為 `C:/rws`
 
 Rconsole 則是用於 Windows 上的 Rgui 設定。
 
-2.Ubuntu(ubun)
+### Ubuntu
 
-預設安裝路徑為 /usr/lib/R/etc
+Path
 
-Rprofile.site 中，預設的工作目錄與路徑 為 /home/xxx/rws
+```
+/usr/lib/R/etc
+```
 
-/home/[使用者家目錄名稱]/rws
+Rprofile.site 中，預設的工作目錄與路徑 為 `/home/[username]/rws`
 
-3.Mac(mac)
+`/home/[username]/rws`
 
-暫無計畫
+### Mac
+
+...
