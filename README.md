@@ -1,5 +1,5 @@
 # haoye-r-profile
-R file
+R profile
 
 ## Details
 
@@ -8,7 +8,9 @@ R file
 平常習慣使用與安裝的套件如下：
 
 ```
-"devtools", "lattice", "GGally", "lubridate", "stringr", "ggplot2", "scales", "reshape2", "data.table", "coefplot", "broom"
+"devtools", "lattice", "GGally", "lubridate", "stringr", 
+
+"ggplot2", "scales", "reshape2", "data.table", "coefplot", "broom"
 ```
 
 ## OS
