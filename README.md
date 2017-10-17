@@ -43,4 +43,6 @@ Rprofile.site 中，預設的工作目錄與路徑 為 `/home/[username]/rws`
 
 ### Mac
 
-...
+請直接在使用者目錄下建立 .Rprofile 檔案，預設的工作目錄與路徑 為 `/Users/[username]/.Rprofile`
+
+
